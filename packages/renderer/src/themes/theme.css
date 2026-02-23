@@ -1,0 +1,67 @@
+@import "preline/css/themes/theme.css";
+
+/* -------------------------------- */
+/* -------- Kado Overrides -------- */
+/* -------------------------------- */
+
+:root {
+  --primary-50: var(--color-emerald-50);
+  --primary-100: var(--color-emerald-100);
+  --primary-200: var(--color-emerald-200);
+  --primary-300: var(--color-emerald-300);
+  --primary-400: var(--color-emerald-400);
+  --primary-500: var(--color-emerald-500);
+  --primary-600: var(--color-emerald-600);
+  --primary-700: var(--color-emerald-700);
+  --primary-800: var(--color-emerald-800);
+  --primary-900: var(--color-emerald-900);
+  --primary-950: var(--color-emerald-950);
+
+  --primary: var(--color-emerald-600);
+  --primary-line: transparent;
+  --primary-foreground: var(--color-white);
+  --primary-hover: var(--color-emerald-700);
+  --primary-focus: var(--color-emerald-700);
+  --primary-active: var(--color-emerald-700);
+  --primary-checked: var(--color-emerald-600);
+
+  --kado-success: var(--color-emerald-500);
+  --kado-success-foreground: var(--color-white);
+  --kado-warning: var(--color-amber-500);
+  --kado-warning-foreground: var(--color-white);
+  --kado-info: var(--color-sky-500);
+  --kado-info-foreground: var(--color-white);
+}
+
+.dark {
+  --primary: var(--color-emerald-500);
+  --primary-line: transparent;
+  --primary-foreground: var(--color-white);
+  --primary-hover: var(--color-emerald-400);
+  --primary-focus: var(--color-emerald-400);
+  --primary-active: var(--color-emerald-400);
+  --primary-checked: var(--color-emerald-500);
+
+  --background: var(--color-neutral-900);
+  --background-1: var(--color-neutral-950);
+  --background-plain: var(--color-neutral-900);
+
+  --navbar: var(--color-neutral-900);
+  --navbar-line: var(--color-neutral-800);
+
+  --sidebar: var(--color-neutral-900);
+  --sidebar-line: var(--color-neutral-800);
+
+  --card: var(--color-neutral-900);
+  --card-line: var(--color-neutral-800);
+
+  --footer: var(--color-neutral-900);
+  --footer-line: var(--color-neutral-800);
+
+  --kado-success: var(--color-emerald-400);
+  --kado-success-foreground: var(--color-white);
+  --kado-warning: var(--color-amber-400);
+  --kado-warning-foreground: var(--color-white);
+  --kado-info: var(--color-sky-400);
+  --kado-info-foreground: var(--color-white);
+}

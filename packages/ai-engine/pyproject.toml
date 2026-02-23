@@ -1,0 +1,30 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "kado-ai-engine"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi",
+    "uvicorn[standard]",
+    "faiss-cpu",
+    "numpy",
+    "sentence-transformers",
+    "pydantic",
+    "pydantic-settings",
+    "python-dotenv",
+    "httpx",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "pytest-asyncio",
+    "ruff",
+    "mypy",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src"]

@@ -1,0 +1,27 @@
+{
+  "name": "kado-v2",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Autonomous coding agent desktop application",
+  "scripts": {
+    "dev": "concurrently -k -n renderer,desktop -c blue,green \"pnpm dev:renderer\" \"wait-on http://localhost:5173 && pnpm --filter @kado/desktop dev\"",
+    "dev:renderer": "pnpm --filter @kado/renderer dev",
+    "dev:orchestrator": "pnpm --filter @kado/orchestrator dev",
+    "dev:ai-engine": "pnpm --filter @kado/ai-engine dev",
+    "build": "pnpm -r build",
+    "build:desktop": "pnpm --filter @kado/desktop build",
+    "lint": "pnpm -r lint",
+    "test": "pnpm -r test",
+    "typecheck": "pnpm -r typecheck",
+    "clean": "pnpm -r clean && rm -rf node_modules"
+  },
+  "engines": {
+    "node": ">=20.0.0",
+    "pnpm": ">=9.0.0"
+  },
+  "packageManager": "pnpm@9.15.4",
+  "devDependencies": {
+    "concurrently": "^9.2.1",
+    "wait-on": "^9.0.4"
+  }
+}

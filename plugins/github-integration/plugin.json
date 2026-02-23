@@ -1,0 +1,9 @@
+{
+  "name": "github-integration",
+  "version": "1.0.0",
+  "description": "Interact with GitHub repositories — create issues, list issues, and open pull requests directly from Kado.",
+  "author": "Kado",
+  "main": "index.js",
+  "type": "integration",
+  "permissions": ["network"]
+}

@@ -1,0 +1,36 @@
+# Normalize line endings to LF on checkout
+* text=auto eol=lf
+
+# Explicitly declare text files
+*.ts text
+*.tsx text
+*.js text
+*.mjs text
+*.cjs text
+*.json text
+*.md text
+*.yml text
+*.yaml text
+*.html text
+*.css text
+*.py text
+*.toml text
+*.cfg text
+*.txt text
+*.sh text eol=lf
+
+# Windows batch files need CRLF
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Binary files
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.woff binary
+*.woff2 binary
+*.ttf binary
+*.eot binary
+*.asar binary

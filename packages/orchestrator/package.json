@@ -1,0 +1,26 @@
+{
+  "name": "@kado/orchestrator",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "eventemitter3": "^5.0.1",
+    "js-tiktoken": "^1.0.21",
+    "uuid": "^9.0.0",
+    "web-tree-sitter": "^0.24.3"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "vitest": "^2.0.0",
+    "@types/node": "^20.0.0",
+    "@types/uuid": "^9.0.0"
+  }
+}
