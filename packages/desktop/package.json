@@ -2,6 +2,15 @@
   "name": "@kado/desktop",
   "version": "0.1.0",
   "private": true,
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kado-autonomy/kado.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kado-autonomy/kado/issues"
+  },
+  "homepage": "https://github.com/kado-autonomy/kado#readme",
   "main": "dist/main.js",
   "scripts": {
     "dev": "tsc && electron .",

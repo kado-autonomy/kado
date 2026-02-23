@@ -1,6 +1,15 @@
 {
   "name": "@kado/ai-engine",
   "version": "0.1.0",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kado-autonomy/kado.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kado-autonomy/kado/issues"
+  },
+  "homepage": "https://github.com/kado-autonomy/kado#readme",
   "scripts": {
     "dev": "./venv/bin/uvicorn src.main:app --reload --port 8100",
     "test": "./venv/bin/pytest",
