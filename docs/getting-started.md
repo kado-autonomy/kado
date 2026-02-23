@@ -2,20 +2,20 @@
 
 ## Prerequisites
 
-| Dependency | Version | Notes |
-|------------|---------|-------|
-| Node.js | >= 20.0.0 | LTS recommended |
-| pnpm | >= 9.0.0 | Workspace package manager |
-| Python | >= 3.11 | For the ai-engine package |
-| Git | any | Source control |
+| Dependency | Version   | Notes                     |
+| ---------- | --------- | ------------------------- |
+| Node.js    | >= 20.0.0 | LTS recommended           |
+| pnpm       | >= 9.0.0  | Workspace package manager |
+| Python     | >= 3.11   | For the ai-engine package |
+| Git        | any       | Source control            |
 
 ## Installation
 
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-org/kado-v2.git
-cd kado-v2
+git clone https://github.com/kado-autonomy/kado.git
+cd kado
 ```
 
 ### 2. Install Node.js dependencies
