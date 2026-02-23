@@ -3,7 +3,7 @@
 ## Supported Versions
 
 | Version | Supported          |
-|---------|--------------------|
+| ------- | ------------------ |
 | 0.1.x   | :white_check_mark: |
 
 ## Reporting a Vulnerability
@@ -21,10 +21,10 @@ We will acknowledge your report within **48 hours** and aim to provide a resolut
 
 ## What to Expect
 
-1. **Acknowledgement** — We will confirm receipt of your report within 48 hours.
-2. **Assessment** — We will investigate and determine the severity and scope.
-3. **Resolution** — We will develop and test a fix privately.
-4. **Disclosure** — Once a fix is released, we will publish a security advisory crediting the reporter (unless you prefer to remain anonymous).
+1. **Acknowledgement** - We will confirm receipt of your report within 48 hours.
+2. **Assessment** - We will investigate and determine the severity and scope.
+3. **Resolution** - We will develop and test a fix privately.
+4. **Disclosure** - Once a fix is released, we will publish a security advisory crediting the reporter (unless you prefer to remain anonymous).
 
 ## Scope
 

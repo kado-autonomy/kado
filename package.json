@@ -3,6 +3,15 @@
   "version": "0.1.0",
   "private": true,
   "description": "Autonomous coding agent desktop application",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kado-autonomy/kado.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kado-autonomy/kado/issues"
+  },
+  "homepage": "https://github.com/kado-autonomy/kado#readme",
   "scripts": {
     "dev": "concurrently -k -n renderer,desktop -c blue,green \"pnpm dev:renderer\" \"wait-on http://localhost:5173 && pnpm --filter @kado/desktop dev\"",
     "dev:renderer": "pnpm --filter @kado/renderer dev",
@@ -13,7 +22,8 @@
     "lint": "pnpm -r lint",
     "test": "pnpm -r test",
     "typecheck": "pnpm -r typecheck",
-    "clean": "pnpm -r clean && rm -rf node_modules"
+    "clean": "pnpm -r clean && rm -rf node_modules",
+    "prepare": "husky install"
   },
   "engines": {
     "node": ">=20.0.0",
@@ -21,7 +31,23 @@
   },
   "packageManager": "pnpm@9.15.4",
   "devDependencies": {
+    "@eslint/js": "^10.0.1",
     "concurrently": "^9.2.1",
+    "eslint": "^10.0.1",
+    "eslint-config-prettier": "^10.1.8",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.2.7",
+    "prettier": "^3.8.1",
+    "typescript-eslint": "^8.56.0",
     "wait-on": "^9.0.4"
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx}": [
+      "prettier --write",
+      "eslint --fix"
+    ],
+    "*.{json,md,yml,yaml,css,html}": [
+      "prettier --write"
+    ]
   }
 }

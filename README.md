@@ -1,5 +1,9 @@
 # Kado v2 — Autonomous Coding Agent
 
+[![CI](https://github.com/kado-autonomy/kado/actions/workflows/ci.yml/badge.svg)](https://github.com/kado-autonomy/kado/actions/workflows/ci.yml)
+[![License](https://img.shields.io/github/license/kado-autonomy/kado)](LICENSE)
+[![Node](https://img.shields.io/badge/node-%3E%3D20.0.0-339933?logo=node.js&logoColor=white)](https://nodejs.org/)
+
 Kado v2 is a desktop application that acts as an autonomous coding agent. Describe what you want to build, and it helps you write code, run commands, and navigate your project through natural conversation.
 
 ## Tech Stack
