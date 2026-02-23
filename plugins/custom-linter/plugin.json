@@ -1,0 +1,9 @@
+{
+  "name": "custom-linter",
+  "version": "1.0.0",
+  "description": "Run custom lint rules against project files to catch common issues and enforce coding standards.",
+  "author": "Kado",
+  "main": "index.js",
+  "type": "tool",
+  "permissions": ["filesystem"]
+}

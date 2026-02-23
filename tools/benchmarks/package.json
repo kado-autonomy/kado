@@ -1,0 +1,16 @@
+{
+  "name": "@kado/benchmarks",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "bench:toon": "tsx toon-benchmark.ts",
+    "bench:search": "tsx search-benchmark.ts",
+    "bench:indexing": "tsx indexing-benchmark.ts",
+    "bench:all": "tsx toon-benchmark.ts && tsx search-benchmark.ts && tsx indexing-benchmark.ts"
+  },
+  "devDependencies": {
+    "tsx": "^4.7.0",
+    "typescript": "^5.0.0"
+  }
+}

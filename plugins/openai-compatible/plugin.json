@@ -1,0 +1,9 @@
+{
+  "name": "openai-compatible-provider",
+  "version": "1.0.0",
+  "description": "Connect to any OpenAI-compatible API endpoint (vLLM, LocalAI, Together, Groq, LM Studio, etc.)",
+  "author": "Kado",
+  "main": "index.js",
+  "type": "model-provider",
+  "permissions": ["network"]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "@kado/desktop",
+  "version": "0.1.0",
+  "private": true,
+  "main": "dist/main.js",
+  "scripts": {
+    "dev": "tsc && electron .",
+    "build": "tsc && electron-builder",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@kado/orchestrator": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "electron": "^33.0.0",
+    "electron-builder": "^25.0.0",
+    "typescript": "^5.0.0"
+  },
+  "build": {
+    "extends": "./electron-builder.yml"
+  }
+}

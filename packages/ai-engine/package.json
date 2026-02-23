@@ -1,0 +1,9 @@
+{
+  "name": "@kado/ai-engine",
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "./venv/bin/uvicorn src.main:app --reload --port 8100",
+    "test": "./venv/bin/pytest",
+    "lint": "ruff check src"
+  }
+}
